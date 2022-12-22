@@ -2,18 +2,14 @@ import React from 'react';
 import {Text } from 'react-native';
 import styles from './styles';
 
-const Title = ({ text }) => {
+const Title = ({ text, style }) => {
   return (
 
-        <Text style={styles.title}>
-            {text}
-        </Text>
+        <Text style={[styles.title, style]}>{text}</Text>
     
    
   );
 };
-Title.defaultText = {
-    text: "Default Text"
-};
+
 
 export default Title;
