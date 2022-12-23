@@ -12,4 +12,4 @@ const Title = ({ text, style }) => {
 };
 
 
-export default Title;
+export default React.memo(Title);

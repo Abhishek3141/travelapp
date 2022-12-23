@@ -2,27 +2,25 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container:{
-        margin:24,
-        flex:1
+        flex:1,
     },
-    subtitle:{
-        fontSize:20,
-        color: '#000000',
-        marginTop: 30,
-        marginBottom:18,
-
-    },
-    row:{
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-    },
-    emptyText:{
-        textAlign:'center',
-        fontSize: 12,
+    image:{
+        width:'100%',
+        height:400,
+        borderRadius: 20,
+        marginBottom: 24,
         marginTop:24,
 
+    },
+    backContainer:{
+        position:'absolute',
+        margin: 40,
 
-
+    },
+    backIcon:{
+        width:40,
+        height:40,
+        borderRadius:20,
     }
 });
 
